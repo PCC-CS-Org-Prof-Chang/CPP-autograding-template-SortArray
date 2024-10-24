@@ -31,10 +31,12 @@ TEST_CASE("Ascending Sort integer array using given sorting algorithm", "[Sort t
 TEST_CASE("Descending Sort integer array using given sorting algorithm", "[Sort test]")
 {
     int numbUsed = 4;
+    int exepctValueFactor = numbUsed;
     int a[] = {10, 20, 30, 40};
     descendingSortArray(a, numbUsed);   
-    for(int i = numbUsed; i < 0; i--)
-    {
-        CHECK(a[i-1] == i*10);
+    for(int i = 0; i < numbUsed; i++)
+    {      
+        CHECK(a[i] == exepctValueFactor*10);
+        exepctValueFactor--;
     }
 }

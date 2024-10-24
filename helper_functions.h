@@ -2,5 +2,4 @@
 
 using namespace std;
 
-int binaryStringToInt(string binaryString);
-string intToBinaryString(int number);
+void swap(int& v1, int& v2);

@@ -8,16 +8,14 @@
 using namespace std; // use the standard namespace
 */
 
-
 // Exercise 1: implement ascending selection sort algorithm for integer array
 void ascendingSortArray(int a[], int nSize);
 
 // ===============
 // implementations
 
-void ascendingSortArray(int a[], int nSize)
-{
-      // TODO: implement sorting algorithm per requirements from assignment
+void ascendingSortArray(int a[], int n) {
+        // TODO: implement sorting algorithm per requirements from assignment
 }
 
 // Exercise 2: implement descending bubble sort algorithm for integer array
